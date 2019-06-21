@@ -1,0 +1,102 @@
+[
+	{
+		"name":"money",
+		"type":"OBJ"
+	},
+	{
+		"name":"to deposit",
+		"type":"VI"
+	},
+	{
+		"name":"to pay",
+		"type":"VI"
+	},
+	{
+		"name":"the lunch",
+		"type":"OBJ"
+	},
+	{
+		"name":"I",
+		"type":"PP"
+	},
+	{
+		"name":"They",
+		"type":"PP"
+	},
+	{
+		"name":"have",
+		"type":"VA"
+	},
+	{
+		"name":"We",
+		"type":"PP"
+	},
+	{
+		"name":"to order",
+		"type":"VI"
+	},
+	{
+		"name":"have",
+		"type":"VA"
+	},
+	{
+		"name":"to ask",
+		"type":"VI"
+	},
+	{
+		"name":"the question",
+		"type":"OBJ"
+	},
+	{
+		"name":"have",
+		"type":"VA"
+	},
+	{
+		"name":"to change",
+		"type":"VI"
+	},
+	{
+		"name":"to buy",
+		"type":"VI"
+	},
+	{
+		"name":"has",
+		"type":"VA"
+	},
+	{
+		"name":"She",
+		"type":"PP"
+	},
+	{
+		"name":"to answer",
+		"type":"VI"
+	},
+	{
+		"name":"the purchase",
+		"type":"OBJ"
+	},
+	{
+		"name":"the tire",
+		"type":"OBJ"
+	},
+	{
+		"name":"You",
+		"type":"PP"
+	},
+	{
+		"name":"have",
+		"type":"VA"
+	},
+	{
+		"name":"to make",
+		"type":"VI"
+	},
+	{
+		"name":"has",
+		"type":"VA"
+	},
+	{
+		"name":"He",
+		"type":"PP"
+	}
+]

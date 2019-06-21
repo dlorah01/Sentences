@@ -1,0 +1,174 @@
+@font-face {
+font-family: "Letters";
+src: url("fonts/Letters.ttf");
+}
+
+@font-face {
+font-family: "Crayon";
+src: url("fonts/Crayon.ttf");
+}
+
+@font-face {
+font-family: "Roboto";
+src: url("fonts/Roboto2.ttf");
+}
+
+
+body {
+  font-family:helvetica neue,san-serif;
+  text-align:center;
+  background:#f9f9f9;
+}
+#grid,.box{
+  -webkit-user-select:none;
+}
+#main {
+  margin:auto;
+  max-width:1000px;
+}
+
+#main2 {
+  margin:5px auto;
+  height: 60px;
+  max-width:1000px;
+}
+
+#text-wrapp {
+  padding: 0px 200px 0px 200px;
+}
+
+#text-wrapp h1 {
+  text-align: center;
+  font-family: "Crayon";
+  text-transform: uppercase;
+  color: #003366;
+}
+
+#text-wrapp p{
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #766c6c;
+
+}
+
+#grid {
+  margin:10px auto 40px;
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+  width:600px;
+  height:370px;
+  padding:20px;
+  background:#C3E5F1;
+  border-radius:10px;
+  font-size:20px;
+  float:left;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.box {
+  font-family: "Roboto";
+  margin:5px;
+  width:110px;
+  height:62px;
+  line-height:60px;
+  text-align:center;
+  background:#fff;
+  box-shadow:0 0 5px rgba(0,0,0,0.1);
+  border-radius:5px;
+  float:left;
+  font-size: 18px;
+}
+
+.box:hover{
+  background:#e7e7e7;
+}
+
+.box.highlight{
+  background:#00b200;
+  color:#fff;
+}
+
+#listContainer {
+ margin:10px 0 0 20px;
+  padding:20px;
+  float:left;
+  height:370px;
+  width:300px;
+  box-shadow:0 0 20px rgba(0,0,0,0.1);
+  background:#C3E5F1;
+  border-radius:10px;
+}
+
+#listContainer h1{
+ font-family: "Crayon";
+ color: #766c6c;
+}
+
+#list{
+  width:300px;
+  margin:auto;
+  padding-left:20px;
+  font-size:22px;
+  font-family: "Letters";
+  font-weight:normal;
+  font-style:normal;
+  text-align:left;
+  list-style:none;
+}
+#list li{
+  width:270px;
+  margin-bottom:15px;
+  text-align:center;
+  background:#fff;
+  box-shadow:0 0 5px rgba(0,0,0,0.1);
+  border-radius:10px;
+  float:left;
+  color: #766c6c;
+}
+
+  /* The alert message box */
+.alert {
+  font-family: "Letters";
+  margin:auto;
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+  border-radius:10px;
+  width:600px;
+  height:20px;
+  padding:20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  font-size:23px;
+  display: none;
+}
+
+.success {
+  font-family: "Letters";
+  margin:auto;
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+  border-radius:10px;
+  width:600px;
+  height:20px;
+  padding:20px;
+  background-color: #00b200; /* Green */
+  color: white;
+  font-size:23px;
+  display: none;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+} 

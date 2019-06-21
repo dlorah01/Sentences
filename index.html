@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Creating Sentences</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="css/style.css">  
+  </head>
+
+  <body>
+    <audio id="incorrect">
+      <source src="js/files/incorrect.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="correct">
+      <source src="js/files/correct.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="do">
+      <source src="js/files/do.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="re">
+      <source src="js/files/re.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="mi">
+      <source src="js/files/mi.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="fa">
+      <source src="js/files/fa.mp3" type="audio/mpeg">
+    </audio>
+    <div id="text-wrapp">
+      <h1>Exercise:</h1>
+      <p>You have to make 5 sentences using the words of the grid. Select the words (top, bottom, right, left, or the 4 diagonals) to form a four-component Sentence. Click and keep the pointer dragging to the boxes of the grid.<br><br><strong> Remember:</strong> A sentence must have a Pronoun, an Auxiliary Verb, an Infinitive Verb and an Object.</p>
+    </div>
+    <div id="main2">
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      </div>
+      <div class="success">Congratulations! You have found a correct sentence!
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      </div>
+    </div>
+
+    <div id="main">
+      <div id="grid">
+        <div class="box" id="div0"></div>
+        <div class="box" id="div1"></div>
+        <div class="box" id="div2"></div>
+        <div class="box" id="div3"></div>
+        <div class="box" id="div4"></div>
+
+        <div class="box" id="div5"></div>
+        <div class="box" id="div6"></div>
+        <div class="box" id="div7"></div>
+        <div class="box" id="div8"></div>
+        <div class="box" id="div9"></div>
+
+        <div class="box" id="div10"></div>
+        <div class="box" id="div11"></div>
+        <div class="box" id="div12"></div>
+        <div class="box" id="div13"></div>
+        <div class="box" id="div14"></div>
+
+        <div class="box" id="div15"></div>
+        <div class="box" id="div16"></div>
+        <div class="box" id="div17"></div>
+        <div class="box" id="div18"></div>
+        <div class="box" id="div19"></div>
+
+        <div class="box" id="div20"></div>
+        <div class="box" id="div21"></div>
+        <div class="box" id="div22"></div>
+        <div class="box" id="div23"></div>
+        <div class="box" id="div24"></div>
+      </div>
+
+      <div id="listContainer">
+        <h1>Sentences Found</h2>
+          <ol id="list">
+          </ol>
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
